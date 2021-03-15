@@ -1,0 +1,58 @@
+nav > ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+nav > ul > li {
+    margin: 0 14px;
+    padding: 1px 2px;
+    border-radius: 10px;
+}
+
+.upcoming-events{
+    position: relative;
+    top: 50px;
+}
+
+.mac-d{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    top: 70px;
+    right: 480px;
+}
+
+.mac-d > h2{
+    display: flex;
+    align-items:flex-end;
+    
+
+}
+
+.home-shake{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    bottom: 178px;
+    
+}
+
+.home-shake > h2{
+    display: flex;
+    align-items:flex-end;
+}
+
+.arial-pink{
+    height: 250px;
+    width: 350px;
+    position: relative;
+    bottom: 428px;
+    left:477px
+
+}
+
+.arial-pink > h2{
+    display: flex;
+    align-items:flex-end;
+
+}
