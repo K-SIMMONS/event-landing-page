@@ -17,9 +17,10 @@ nav > ul > li {
 .mac-d{
     height: 250px;
     width: 350px;
-    position: relative;
-    top: 70px;
-    right: 480px;
+    /* position: relative; */
+    /* top: 70px; */
+    /* right: 480px; */
+    justify-content: center;
 }
 
 .mac-d > h2{
@@ -32,9 +33,16 @@ nav > ul > li {
 .home-shake{
     height: 250px;
     width: 350px;
-    position: relative;
-    bottom: 178px;
+    /* position: relative; */
+    /* bottom: 178px; */
+    justify-content: center;
     
+}
+.artist_container{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .home-shake > h2{
@@ -43,16 +51,45 @@ nav > ul > li {
 }
 
 .arial-pink{
+    display: flex;
     height: 250px;
     width: 350px;
-    position: relative;
-    bottom: 428px;
-    left:477px
+    /* position: relative; */
+    /* bottom: 428px; */
+    /* left:477px; */
+    justify-content: center;
 
 }
 
 .arial-pink > h2{
     display: flex;
     align-items:flex-end;
+    /* justify-self: center; */
 
+}
+
+.subscribe_news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size:0px;
+    margin-top: 80px;
+}
+
+.subscribe_news > .btn {
+    width: 50%;
+}
+
+.line{
+    margin-top: 40px;
+    width: 100%;
+    height: 5px;
+    border-bottom: 3px solid lightgrey;
+}
+
+.venues{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
 }
